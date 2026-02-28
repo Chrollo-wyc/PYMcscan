@@ -1,0 +1,31 @@
+
+PS D:\biancheng\keyan> E:/anaconda3/envs/pycharm/python.exe -m pycircos.pymcscan.cli.mcscan D:/biancheng/keyan/pycircos/example
+
+mcscanx/
+├── __init__.py
+├── core/
+│   ├── __init__.py
+│   ├── data_structures.py
+│   ├── reader.py
+│   ├── dagchainer.py
+│   ├── msa.py
+│   └── classifier.py
+├── tools/
+│   ├── __init__.py
+│   ├── tandem_detector.py
+│   └── alignment_analyzer.py
+├── utils/
+│   ├── __init__.py
+│   ├── math_utils.py
+│   └── file_utils.py
+├── output/
+│   ├── __init__.py
+│   └── output_utils.py
+└── cli/
+    ├── __init__.py
+    ├── mcscan.py
+    └── dup_classifier.py
+
+blast用outfmt8格式
+gff用：
+	chr/tgene/tstart/tend
